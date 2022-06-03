@@ -1,0 +1,77 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+	margin-top: 0px;
+	background-image: url(paisagem.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	font-size: 70px;
+	margin: 0px;
+	text-align: center;
+}
+form {
+	text-align: left;
+}
+#subtitulo{
+	font-size: 30px;
+	margin: 50px;
+	text-align: center;
+}
+.corpo {
+	width: 810px;
+	height: 1200px;
+	background-color: rgba(173, 216, 230, 0.5);
+	margin: 0 auto;
+	padding: 25px;
+	border-radius: 5px;
+}
+h2{
+	font-size: 20px;
+}
+.barra{
+	width: 800px;
+	
+}
+h3{
+	font-size: 15px;
+}
+textarea {
+	width: 800px;
+	height: 150px;
+	resize: none;
+	border-radius: 5px;
+}
+input {
+	height: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 5px;
+}
+select {
+	width: 800px;
+	height: 40px;
+	border-radius: 5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.centro{
+	text-align: center;
+}
+button {
+	border-radius: 5px;
+	font-family:  'Ubuntu', sans-serif;
+	width: 800px;
+	height: 40px;
+}
+button:hover {
+	background-color: #87cefa;
+}
+.termos {
+	text-decoration: none;
+}
+.termos:hover {
+	text-decoration: underline;
+}
+.curriculo {
+
+}

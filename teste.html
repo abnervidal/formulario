@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário 2022!</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body >
+	<div class="fundo">
+		<h1>Formulário 2022</h1>
+		<h2 id="subtitulo">Seja Bem Vindo e Preencha o Formulário com Atenção</h2>
+		<div class="corpo">
+		<form method="POST" action="envio.html" enctype="multipart/from-data">
+			<h2>Nome Completo:</h2>
+			<input type="text" name="name" placeholder="Nome Completo" class="barra" required>
+
+			<h2>Email:</h2>
+			<input type="email" name="email" placeholder="nome@exemplo.com" class="barra" required>
+			<br><br>
+			<table width="800px" border="0">
+				<tr>
+					<td><h2>Celular:</h2></td> 
+					<td><input type="tel" name="tel" placeholder="(00)000000000" required></td>
+
+					<td><h2>Data de Nascimento:</h2></td> 
+					<td><input type="date" name="age" required></td>
+
+				</tr>
+
+			</table>
+
+			<table width="300px" border="0">		
+				<h2>Sexo:</h2>
+				<tr class="centro">
+					<td> <h3>Masculino</h3> </td>
+					<td> <h3>Feminino</h3> </td>
+					<td> <h3>Outro</h3> </td>
+				</tr >
+				<tr class="centro">
+					<td > <input type="radio" name="sexo" required> </td>
+
+					<td > <input type="radio" name="sexo"> </td>
+
+					<td> <input type="radio" name="sexo">  </td>
+				</tr>
+			</table>
+
+			<h2>Escolaridade:</h2>
+			<select name="escolaridade" size="1" required>
+				<option desable selected value>Selecione uma Opção</option>
+				<option>Ensino Fundamental Incompleto</option>
+				<option>Ensino fundamental Completo</option>
+				<option>Ensino Medio Incompleto</option>
+				<option>Ensino Medio Completo</option>
+				<option>Ensino Superior</option>
+				<option>Pós Graduação</option>
+				<option>Mestrado</option>
+				<option>Doutorado</option>
+			</select>
+			<h2>Estado Civil</h2>
+			<select name="escolaridade" size="1" required>
+				<option desable selected value>Selecione uma Opção</option>
+				<option>Solteiro(a)</option>
+				<option>Casado(a)</option>
+				<option>Divorciado(a)</option>
+				<option>Viuvo(a)</option>
+			</select>
+			<h2>Fale Um Pouco Sobre Voçê e Suas Experiências!</h2>
+			<textarea name="descricao" required></textarea>
+
+			<h2>Anexe o Seu Currículo Abaixo</h2>
+			<input type="file" name="curriculo" accept="application/pdf" class="curriculo" required>
+			<br>
+			<input type="checkbox" required> Declaro Que Li e Concordo Com Todos os <a href="termos.html" target="_blank" class="termos">Termos de Segurança</a>
+			<br><br>
+			<button>Enviar Dados</button>
+		</form>
+		</div>
+	</div>
+</body>	
+</html>
